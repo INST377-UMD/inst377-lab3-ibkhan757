@@ -1,0 +1,73 @@
+body {
+    background-color: mediumpurple;
+}
+
+#bar {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    clear: both;
+}
+
+#main-nav {
+    background-color: indigo;
+    text-align: left;
+    color: white;
+}
+
+#main-nav li {
+    padding: 10px 15px;
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+#main-nav li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content-area {
+    padding: 20px;
+    margin: 5px;
+    background-color: lavender;
+    border-radius: 15px;
+    border: 2px solid indigo;
+    width: 68%;
+    float: left;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+#rules {
+    background-color: thistle;
+    float: right;
+    width: 25%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid indigo;   
+
+}
+
+#rules:hover {
+    background-color: plum;
+}
+
+#name {
+    width: 150px; 
+    transition: width 0.4s ease-in-out; 
+}
+
+#name:focus {
+    width: 250px;
+}
